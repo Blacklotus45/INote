@@ -1,4 +1,6 @@
 %h1= @note.title
 %p= @note.content
 
+=link_to "All Notes", notes_path
+=link_to "Fix Note", edit_note_path(@note)
 =link_to "Trash It", note_path(@note), method: :delete,  data: { confirm: "Are you sure?"  }
