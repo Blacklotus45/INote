@@ -1,0 +1,2 @@
+module JsonNoteHelper
+end
